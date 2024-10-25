@@ -83,3 +83,8 @@
     transform: scale(1.05);
   }
   
+  #instagram-feed iframe {
+    width: 100%;
+    border: none;
+    margin-top: 20px;
+  }
