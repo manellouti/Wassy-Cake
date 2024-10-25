@@ -51,3 +51,18 @@
     text-align: center;
   }
   
+  #services, #creations, #social, #contact {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #967f71;
+  }
+  
+  .service-item {
+    margin-bottom: 20px;
+  }
+  
