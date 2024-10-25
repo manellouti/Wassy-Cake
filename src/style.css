@@ -13,7 +13,7 @@
   header {
     position: sticky;
     top: 0;
-    background-color: #3b3937;
+    background-color: #967f71;
     padding: 10px 20px;
     display: flex;
     justify-content: space-between;
@@ -43,7 +43,7 @@
   }
   
   header nav ul li a:hover {
-    color:#967f71;
+    color:#3b3937;
   }
   
   #services, #creations, #social, #contact {
@@ -59,7 +59,7 @@
   h2 {
     font-size: 2rem;
     margin-bottom: 20px;
-    color: #967f71;
+    color: #3b3937;
   }
   
   .service-item {
@@ -87,4 +87,31 @@
     width: 100%;
     border: none;
     margin-top: 20px;
+  }
+
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  form input, form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form button {
+    padding: 10px;
+    background-color: #967f71;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #3b3937;
   }
