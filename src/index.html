@@ -16,34 +16,145 @@
     <!-- Header -->
     <header>
       <div class="logo">
-        <img src="./assets/logo.png" alt="Wassy Cake Logo" />
+        <img src="./assets/logo.png" alt="Logo" />
+      </div>
+      <div class="burger-menu" id="burgerMenu">
+        <span></span>
+        <span></span>
+        <span></span>
       </div>
       <nav>
-        <ul>
-          <li><a href="#services">Services</a></li>
+        <ul id="menuItems">
+          <li><a href="#services">Services </a></li>
           <li><a href="#creations">Créations</a></li>
-          <li><a href="#social">Réseaux Sociaux</a></li>
+          <li><a href="#social">Réseaux</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     </header>
 
+    <div class="slider">
+      <div class="slides">
+        <div class="slide active">
+          <img src="./assets/banner.png" alt="Présentation 1" />
+          <div class="caption">Présentation 1</div>
+        </div>
+        <div class="slide">
+          <img src="./assets/banner2.png" height="50%" alt="Présentation 2" />
+          <div class="caption">Présentation 2</div>
+        </div>
+      </div>
+      <div class="navigation">
+        <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+        <button class="next" onclick="changeSlide(1)">&#10095;</button>
+      </div>
+    </div>
+
     <!-- Services Section -->
     <section id="services">
       <h2>Mes Services</h2>
-      <div class="service-item">
-        <h3>Layer Cakes</h3>
-        <p>
-          Des gâteaux multicouches personnalisés pour toutes vos occasions
-          spéciales.
-        </p>
+      <div class="card">
+        <div class="card__border"></div>
+        <div class="card_title__container">
+          <span class="card_title">Services</span>
+        </div>
+        <hr class="line" />
+        <ul class="card__list">
+          <li class="card__list_item">
+            <span class="check">
+              <svg
+                class="check_svg"
+                fill="currentColor"
+                viewBox="0 0 16 16"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.74a.75.75 0 0 1 1.04-.207Z"
+                  fill-rule="evenodd"
+                ></path>
+              </svg>
+            </span>
+            <span class="list_text">Layer Cakes</span>
+          </li>
+          <li class="card__list_item">
+            <span class="check">
+              <svg
+                class="check_svg"
+                fill="currentColor"
+                viewBox="0 0 16 16"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.74a.75.75 0 0 1 1.04-.207Z"
+                  fill-rule="evenodd"
+                ></path>
+              </svg>
+            </span>
+            <span class="list_text">Number Cakes</span>
+          </li>
+          <li class="card__list_item">
+            <span class="check">
+              <svg
+                class="check_svg"
+                fill="currentColor"
+                viewBox="0 0 16 16"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.74a.75.75 0 0 1 1.04-.207Z"
+                  fill-rule="evenodd"
+                ></path>
+              </svg>
+            </span>
+            <span class="list_text">Cupcakes</span>
+          </li>
+          <li class="card__list_item">
+            <span class="check">
+              <svg
+                class="check_svg"
+                fill="currentColor"
+                viewBox="0 0 16 16"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.74a.75.75 0 0 1 1.04-.207Z"
+                  fill-rule="evenodd"
+                ></path>
+              </svg>
+            </span>
+            <span class="list_text">Thème</span>
+          </li>
+          <li class="card__list_item">
+            <span class="check">
+              <svg
+                class="check_svg"
+                fill="currentColor"
+                viewBox="0 0 16 16"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.74a.75.75 0 0 1 1.04-.207Z"
+                  fill-rule="evenodd"
+                ></path>
+              </svg>
+            </span>
+            <span class="list_text">Boxes Aïd</span>
+          </li>
+        </ul>
+        <a
+          class="button"
+          href="https://www.instagram.com/wassy.cake/?utm_source=ig_embed&ig_rid=bfd71a4c-673a-4027-9213-d10cb3ef0234"
+          target="_blank"
+        >
+          Voir +
+        </a>
       </div>
-      <div class="service-item">
-        <h3>Pièces Montées</h3>
-        <p>
-          Des pièces montées spectaculaires qui feront briller vos événements.
-        </p>
-      </div>
+
       <!-- Plus de services -->
     </section>
 
@@ -102,5 +213,6 @@
         <a href="https://www.tiktok.com/@wassy.cake" target="_blank">TikTok</a>
       </p>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
