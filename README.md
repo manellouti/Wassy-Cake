@@ -1,7 +1,5 @@
 # Wassy Cake
 
-![Wassy Cake Logo](./assets/logo.png)
-
 ## Description
 
 Wassy Cake est un site vitrine qui propose des gâteaux faits maison pour toutes les occasions, tels que des anniversaires, des mariages et des événements spéciaux. Ce site permet aux utilisateurs de découvrir les créations de Wassy Cake et de passer commande facilement.
